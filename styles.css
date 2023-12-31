@@ -1,12 +1,12 @@
 body{
-    background-color: powderblue;
+    background-color: #F0DDBB;
 }
 
 h1{
     font-size: 50px;
     text-align: center;
     font-weight: 800;
-    background-color: lightyellow;
+    background-color: #F3C686;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -14,13 +14,11 @@ p{
     font-size: 30px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
 }
 
 #ChocolateCookie{
 width: 300px;
 height: auto;
-background-color: powderblue;
 object-fit: none;
 object-position: left top;
 border: 2px solid black;
@@ -33,7 +31,6 @@ width: auto;
 #Cake{
 width: 300px;
 height: auto;
-background-color: powderblue;
 object-fit: none;
 object-position: left top;
 border: 2px solid black;
