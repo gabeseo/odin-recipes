@@ -3,18 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            #TiramisuImage {
+                width: 300px;
+                height: auto;
+                background-color: powderblue;
+                object-fit: none;
+                object-position: left top;
+                border: 2px solid black;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-            <ul>    
-                <li><a href="recipes/tiramisu.html">Tiramisu</a></li>
-                <img src="tiramisu.jpg" alt="Tiramisu picture">
-                <li><a href="recipes/cookies.html">Chocolate Cookies</a></li>
-                <img src="./cookies.jpg" alt="Cookie picture">
-                <li><a href="recipes/Strawberry_cake.html">Strawberry Cake</a></li>
-                <img src="./strawberrycake.jpg" alt="Strawberry Cake picture">
-                
-            </ul>
+        <h1>Odin Recipes</h1>    
+            <p><a href="recipes/tiramisu.html">Tiramisu</a></p>
+            <img id="TiramisuImage" src="tiramisu.jpg" alt="Tiramisu picture">
+            <p><a href="recipes/cookies.html">Chocolate Cookies</a></p>
+            <img id="ChocolateCookie" src="recipes/cookies.jpg" alt="Cookie picture">
+            <p><a href="recipes/Strawberry_cake.html">Strawberry Cake</a></p>
+            <img id="Cake"src="recipes./strawberrycake.jpg" alt="Strawberry Cake picture">
     </body>
 </html>
